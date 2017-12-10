@@ -90,10 +90,7 @@ var myRevealingModule = (function () {
 
 })();
 
-
-
 // Usage:
-
 myRevealingModule.setName("Paul Kinlan");
 
 // Increment our counter

@@ -175,6 +175,9 @@
     <Content Include="Scripts\DesignPattern\ConstructorPattern\ObjectCreation2.js" />
     <Content Include="Scripts\DesignPattern\ModulePattern\ModularPattern.js" />
     <Content Include="Scripts\DesignPattern\ModulePattern\ObjectLiterals.js" />
+    <Content Include="Scripts\DesignPattern\ObserverPattern\Example1.js" />
+    <Content Include="Scripts\DesignPattern\SingletonPattern\Example1.js" />
+    <Content Include="Scripts\DesignPattern\SingletonPattern\Example2.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -200,6 +203,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\ObserverPattern.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

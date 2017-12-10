@@ -26,5 +26,12 @@ namespace DesignPatternJavaScript.Controllers
 
             return View();
         }
+
+        public ActionResult ObserverPattern()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }

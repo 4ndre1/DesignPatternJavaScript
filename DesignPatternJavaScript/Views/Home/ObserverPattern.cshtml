@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "ObserverPattern";
+}
+
+<h2>ObserverPattern</h2>
+
+<div class="row">
+    <div class="col-xs-3">
+        <button id="addNewObserver" class="btn btn-default">Add New Observer checkbox</button>
+    </div>
+    <div class="col-xs-3">
+        <input id="mainCheckbox" type="checkbox" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <div id="observersContainer"></div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/Scripts/DesignPattern/ObserverPattern/Example1.js"></script>
+}
+
