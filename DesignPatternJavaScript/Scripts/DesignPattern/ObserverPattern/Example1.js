@@ -1,4 +1,4 @@
-﻿// Observer
+﻿//Observer list
 
 function ObserverList() {
     this.observerList = [];
@@ -56,6 +56,15 @@ Subject.prototype.notify = function (context) {
     }
 };
 
+//Observer
+
+function Observer() {
+
+    this.update = function () {
+        console.log("Update!");
+    }
+}
+
 // Extend an object with an extension
 function extend(obj, extension) {
     for (var key in extension) {
@@ -90,7 +99,7 @@ function addNewObserver() {
     check.type = "checkbox";
 
     // Extend the checkbox with the Observer class
-    extend(check, new ObserverList());
+    extend(check, new Observer());
 
     // Override with custom update behaviour
     check.update = function (value) {

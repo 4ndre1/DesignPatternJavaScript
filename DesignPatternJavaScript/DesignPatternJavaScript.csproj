@@ -176,6 +176,7 @@
     <Content Include="Scripts\DesignPattern\ModulePattern\ModularPattern.js" />
     <Content Include="Scripts\DesignPattern\ModulePattern\ObjectLiterals.js" />
     <Content Include="Scripts\DesignPattern\ObserverPattern\Example1.js" />
+    <Content Include="Scripts\DesignPattern\PublishSubscribe\Example1.js" />
     <Content Include="Scripts\DesignPattern\SingletonPattern\Example1.js" />
     <Content Include="Scripts\DesignPattern\SingletonPattern\Example2.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
