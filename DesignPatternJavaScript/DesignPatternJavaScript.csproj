@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -176,6 +177,9 @@
     <Content Include="Scripts\DesignPattern\ModulePattern\ModularPattern.js" />
     <Content Include="Scripts\DesignPattern\ModulePattern\ObjectLiterals.js" />
     <Content Include="Scripts\DesignPattern\ObserverPattern\Example1.js" />
+    <Content Include="Scripts\DesignPattern\PrototypePattern\Example2.js" />
+    <Content Include="Scripts\DesignPattern\PrototypePattern\Example1.js" />
+    <Content Include="Scripts\DesignPattern\PrototypePattern\Example3.js" />
     <Content Include="Scripts\DesignPattern\PublishSubscribe\Example1.js" />
     <Content Include="Scripts\DesignPattern\SingletonPattern\Example1.js" />
     <Content Include="Scripts\DesignPattern\SingletonPattern\Example2.js" />
