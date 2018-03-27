@@ -170,6 +170,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\DesignPattern\CommandPattern\Example1.js" />
     <Content Include="Scripts\DesignPattern\ConstructorPattern\BasicConstructors.js" />
     <Content Include="Scripts\DesignPattern\ConstructorPattern\ConstructorsWithPrototypes.js" />
     <Content Include="Scripts\DesignPattern\ConstructorPattern\ObjectCreation.js" />
