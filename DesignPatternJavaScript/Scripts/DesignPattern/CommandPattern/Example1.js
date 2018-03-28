@@ -1,6 +1,6 @@
-﻿(function () {
+﻿var carManager = (function () {
 
-    var carManager = {
+    var manager = {
 
         // request information
         requestInfo: function (model, id) {
@@ -15,20 +15,21 @@
         // arrange a viewing
         arrangeViewing: function (model, id) {
             return "You have successfully booked a viewing of " + model + " ( " + id + " ) ";
+        },
+
+        execute: function (name) {
+            return carManager[name] && carManager[name].apply(carManager, [].slice.call(arguments, 1));
         }
 
     };
 
-    carManager.execute = function (name) {
-        return carManager[name] && carManager[name].apply(carManager, [].slice.call(arguments, 1));
-    };
-
-    carManager.execute("buyVehicle", "Ford Escort", "453543");
-    carManager.execute("arrangeViewing", "Ferrari", "14523");
-    carManager.execute("requestInfo", "Ford Mondeo", "54323");
-    carManager.execute("requestInfo", "Ford Escort", "34232");
-    carManager.execute("buyVehicle", "Ford Escort", "34232");
-
+    return manager;
 })();
+
+carManager.execute("buyVehicle", "Ford Escort", "453543");
+carManager.execute("arrangeViewing", "Ferrari", "14523");
+carManager.execute("requestInfo", "Ford Mondeo", "54323");
+carManager.execute("requestInfo", "Ford Escort", "34232");
+carManager.execute("buyVehicle", "Ford Escort", "34232");
 
 

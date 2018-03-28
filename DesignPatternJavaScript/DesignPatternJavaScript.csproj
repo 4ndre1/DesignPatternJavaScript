@@ -175,6 +175,7 @@
     <Content Include="Scripts\DesignPattern\ConstructorPattern\ConstructorsWithPrototypes.js" />
     <Content Include="Scripts\DesignPattern\ConstructorPattern\ObjectCreation.js" />
     <Content Include="Scripts\DesignPattern\ConstructorPattern\ObjectCreation2.js" />
+    <Content Include="Scripts\DesignPattern\FacadePattern\Example1.js" />
     <Content Include="Scripts\DesignPattern\ModulePattern\ModularPattern.js" />
     <Content Include="Scripts\DesignPattern\ModulePattern\ObjectLiterals.js" />
     <Content Include="Scripts\DesignPattern\ObserverPattern\Example1.js" />
