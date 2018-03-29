@@ -11,8 +11,6 @@ namespace DesignPatternJavaScript.Controllers
     {
         public ActionResult Index()
         {
-            var status = GerarStatusParaPesquisa(true, false, false);
-
             return View();
         }
 
@@ -37,38 +35,5 @@ namespace DesignPatternJavaScript.Controllers
 
             return View();
         }
-
-        //Código Temp!!
-        private string[] GerarStatusParaPesquisa(bool emProcessamento, bool recebidoSemErros, bool recebidoComErros)
-        {
-            string[] status = new string[3];
-
-            if (emProcessamento) status[0] = StatusArquivo.PRO.ToString();
-            if (recebidoSemErros) status[1] = StatusArquivo.SEM.ToString();
-            if (recebidoComErros) status[2] = StatusArquivo.COM.ToString();
-
-            if (status.All(s => s == null))
-            {
-                status = new string[3] 
-                {
-                    StatusArquivo.PRO.ToString(),
-                    StatusArquivo.SEM.ToString(),
-                    StatusArquivo.COM.ToString()
-                };
-            }
-
-            return status;
-        }
-
-    }
-
-    public enum StatusArquivo
-    {
-        [Description("Em processamento")]
-        PRO,
-        [Description("Recebido sem erros")]
-        SEM,
-        [Description("Recebido com erros")]
-        COM,
     }
 }
